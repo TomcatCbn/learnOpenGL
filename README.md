@@ -9,3 +9,4 @@
 4.在项目中framework依赖中添加glfw，glew和opengl库
 5.在项目中search路径添加head：/usr/local/include，在lib：/usr/local/lib
 6.项目中导入glad.c文件
+
