@@ -34,6 +34,8 @@
 		168BE7D6240A389500190053 /* 6.2.coordinate_systems.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.2.coordinate_systems.fs; sourceTree = "<group>"; };
 		168BE7D7240A389500190053 /* 6.2.coordinate_systems.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.2.coordinate_systems.vs; sourceTree = "<group>"; };
 		168BE7D8240A392C00190053 /* shader_m.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader_m.h; sourceTree = "<group>"; };
+		168BE7D9240A3D9200190053 /* 7.1.camera.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 7.1.camera.fs; sourceTree = "<group>"; };
+		168BE7DA240A3D9200190053 /* 7.1.camera.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 7.1.camera.vs; sourceTree = "<group>"; };
 		16965B80240A07090002F896 /* learnOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learnOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		16965B83240A07090002F896 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		16965B8B240A08C20002F896 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,8 @@
 		16965BAD240A29940002F896 /* shader */ = {
 			isa = PBXGroup;
 			children = (
+				168BE7D9240A3D9200190053 /* 7.1.camera.fs */,
+				168BE7DA240A3D9200190053 /* 7.1.camera.vs */,
 				168BE7D6240A389500190053 /* 6.2.coordinate_systems.fs */,
 				168BE7D7240A389500190053 /* 6.2.coordinate_systems.vs */,
 				168BE7D4240A325B00190053 /* 5.1.transform.fs */,
