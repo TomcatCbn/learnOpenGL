@@ -12,6 +12,7 @@
 		16965B8E240A099B0002F896 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 16965B8D240A099B0002F896 /* libGLEW.2.1.0.dylib */; };
 		16965B90240A09B10002F896 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 16965B8F240A09B10002F896 /* libglfw.3.3.dylib */; };
 		16965B9C240A0FA70002F896 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 16965B9B240A0FA70002F896 /* glad.c */; };
+		16965BB1240A2B510002F896 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16965BB0240A2B510002F896 /* stb_image.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,13 @@
 		16965BA5240A19000002F896 /* shader_s.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader_s.h; sourceTree = "<group>"; };
 		16965BA6240A19880002F896 /* shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.fs; sourceTree = "<group>"; };
 		16965BA7240A19880002F896 /* shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.vs; sourceTree = "<group>"; };
+		16965BA8240A28D50002F896 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		16965BA9240A291A0002F896 /* filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filesystem.h; sourceTree = "<group>"; };
+		16965BAA240A293B0002F896 /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeface.png; sourceTree = "<group>"; };
+		16965BAB240A295A0002F896 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = container.jpg; sourceTree = "<group>"; };
+		16965BAE240A299E0002F896 /* 4.2.texture.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 4.2.texture.fs; sourceTree = "<group>"; };
+		16965BAF240A299E0002F896 /* 4.2.texture.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 4.2.texture.vs; sourceTree = "<group>"; };
+		16965BB0240A2B510002F896 /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +82,14 @@
 		16965B82240A07090002F896 /* learnOpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				16965BAD240A29940002F896 /* shader */,
+				16965BAC240A296F0002F896 /* res */,
+				16965BA8240A28D50002F896 /* stb_image.h */,
+				16965BA9240A291A0002F896 /* filesystem.h */,
 				16965BA5240A19000002F896 /* shader_s.h */,
 				16965B9B240A0FA70002F896 /* glad.c */,
-				16965BA6240A19880002F896 /* shader.fs */,
-				16965BA7240A19880002F896 /* shader.vs */,
 				16965B83240A07090002F896 /* main.cpp */,
+				16965BB0240A2B510002F896 /* stb_image.cpp */,
 			);
 			path = learnOpenGL;
 			sourceTree = "<group>";
@@ -91,6 +102,34 @@
 				16965B8B240A08C20002F896 /* OpenGL.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16965BAC240A296F0002F896 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				16965BB2240A2BD20002F896 /* textures */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		16965BAD240A29940002F896 /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				16965BAE240A299E0002F896 /* 4.2.texture.fs */,
+				16965BAF240A299E0002F896 /* 4.2.texture.vs */,
+				16965BA6240A19880002F896 /* shader.fs */,
+				16965BA7240A19880002F896 /* shader.vs */,
+			);
+			path = shader;
+			sourceTree = "<group>";
+		};
+		16965BB2240A2BD20002F896 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				16965BAA240A293B0002F896 /* awesomeface.png */,
+				16965BAB240A295A0002F896 /* container.jpg */,
+			);
+			path = textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16965BB1240A2B510002F896 /* stb_image.cpp in Sources */,
 				16965B84240A07090002F896 /* main.cpp in Sources */,
 				16965B9C240A0FA70002F896 /* glad.c in Sources */,
 			);
