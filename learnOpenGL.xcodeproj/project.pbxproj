@@ -31,6 +31,9 @@
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
+		168BE7D6240A389500190053 /* 6.2.coordinate_systems.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.2.coordinate_systems.fs; sourceTree = "<group>"; };
+		168BE7D7240A389500190053 /* 6.2.coordinate_systems.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.2.coordinate_systems.vs; sourceTree = "<group>"; };
+		168BE7D8240A392C00190053 /* shader_m.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader_m.h; sourceTree = "<group>"; };
 		16965B80240A07090002F896 /* learnOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learnOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		16965B83240A07090002F896 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		16965B8B240A08C20002F896 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,7 @@
 				16965BAD240A29940002F896 /* shader */,
 				16965BAC240A296F0002F896 /* resources */,
 				16965BA8240A28D50002F896 /* stb_image.h */,
+				168BE7D8240A392C00190053 /* shader_m.h */,
 				16965BA9240A291A0002F896 /* filesystem.h */,
 				16965BA5240A19000002F896 /* shader_s.h */,
 				16965B9B240A0FA70002F896 /* glad.c */,
@@ -119,6 +123,8 @@
 		16965BAD240A29940002F896 /* shader */ = {
 			isa = PBXGroup;
 			children = (
+				168BE7D6240A389500190053 /* 6.2.coordinate_systems.fs */,
+				168BE7D7240A389500190053 /* 6.2.coordinate_systems.vs */,
 				168BE7D4240A325B00190053 /* 5.1.transform.fs */,
 				168BE7D5240A325B00190053 /* 5.1.transform.vs */,
 				16965BAE240A299E0002F896 /* 4.2.texture.fs */,
