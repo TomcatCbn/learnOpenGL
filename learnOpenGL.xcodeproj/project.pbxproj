@@ -51,6 +51,10 @@
 		161E673224137B6800E31EE6 /* 5.2.lamp.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.2.lamp.fs; sourceTree = "<group>"; };
 		161E673324137B6800E31EE6 /* 5.2.light_casters.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.2.light_casters.vs; sourceTree = "<group>"; };
 		161E673424137B6800E31EE6 /* 5.2.lamp.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.2.lamp.vs; sourceTree = "<group>"; };
+		161E673524137F5800E31EE6 /* 6.lamp.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.lamp.vs; sourceTree = "<group>"; };
+		161E673624137F5800E31EE6 /* 6.multiple_lights.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.multiple_lights.fs; sourceTree = "<group>"; };
+		161E673724137F5800E31EE6 /* 6.multiple_lights.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.multiple_lights.vs; sourceTree = "<group>"; };
+		161E673824137F5900E31EE6 /* 6.lamp.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.lamp.fs; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -95,6 +99,10 @@
 		161E6715241343E700E31EE6 /* light */ = {
 			isa = PBXGroup;
 			children = (
+				161E673824137F5900E31EE6 /* 6.lamp.fs */,
+				161E673524137F5800E31EE6 /* 6.lamp.vs */,
+				161E673624137F5800E31EE6 /* 6.multiple_lights.fs */,
+				161E673724137F5800E31EE6 /* 6.multiple_lights.vs */,
 				161E673224137B6800E31EE6 /* 5.2.lamp.fs */,
 				161E673424137B6800E31EE6 /* 5.2.lamp.vs */,
 				161E673124137B6800E31EE6 /* 5.2.light_casters.fs */,
