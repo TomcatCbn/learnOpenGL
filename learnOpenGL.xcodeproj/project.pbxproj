@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161E673A2413899700E31EE6 /* libassimp.5.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 161E67392413899700E31EE6 /* libassimp.5.0.0.dylib */; };
 		16965B84240A07090002F896 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16965B83240A07090002F896 /* main.cpp */; };
 		16965B8C240A08C20002F896 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16965B8B240A08C20002F896 /* OpenGL.framework */; };
 		16965B8E240A099B0002F896 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 16965B8D240A099B0002F896 /* libGLEW.2.1.0.dylib */; };
@@ -55,6 +56,12 @@
 		161E673624137F5800E31EE6 /* 6.multiple_lights.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.multiple_lights.fs; sourceTree = "<group>"; };
 		161E673724137F5800E31EE6 /* 6.multiple_lights.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.multiple_lights.vs; sourceTree = "<group>"; };
 		161E673824137F5900E31EE6 /* 6.lamp.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 6.lamp.fs; sourceTree = "<group>"; };
+		161E67392413899700E31EE6 /* libassimp.5.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.5.0.0.dylib; path = ../../../../../usr/local/Cellar/assimp/5.0.1/lib/libassimp.5.0.0.dylib; sourceTree = "<group>"; };
+		161E674124138A3000E31EE6 /* model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		161E674224138B5F00E31EE6 /* mesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		161E674324138B6A00E31EE6 /* shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
+		161E674424138F5E00E31EE6 /* 1.model_loading.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 1.model_loading.fs; sourceTree = "<group>"; };
+		161E674524138F5F00E31EE6 /* 1.model_loading.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 1.model_loading.vs; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -87,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161E673A2413899700E31EE6 /* libassimp.5.0.0.dylib in Frameworks */,
 				16965B90240A09B10002F896 /* libglfw.3.3.dylib in Frameworks */,
 				16965B8E240A099B0002F896 /* libGLEW.2.1.0.dylib in Frameworks */,
 				16965B8C240A08C20002F896 /* OpenGL.framework in Frameworks */,
@@ -127,6 +135,15 @@
 			path = light;
 			sourceTree = "<group>";
 		};
+		161E673B241389D000E31EE6 /* model_loading */ = {
+			isa = PBXGroup;
+			children = (
+				161E674424138F5E00E31EE6 /* 1.model_loading.fs */,
+				161E674524138F5F00E31EE6 /* 1.model_loading.vs */,
+			);
+			path = model_loading;
+			sourceTree = "<group>";
+		};
 		16965B77240A07090002F896 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +172,9 @@
 				168BE7D8240A392C00190053 /* shader_m.h */,
 				16965BA9240A291A0002F896 /* filesystem.h */,
 				16965BA5240A19000002F896 /* shader_s.h */,
+				161E674224138B5F00E31EE6 /* mesh.h */,
+				161E674324138B6A00E31EE6 /* shader.h */,
+				161E674124138A3000E31EE6 /* model.h */,
 				16965B9B240A0FA70002F896 /* glad.c */,
 				161E671A2413451D00E31EE6 /* camera.h */,
 				16965B83240A07090002F896 /* main.cpp */,
@@ -166,6 +186,7 @@
 		16965B8A240A08C20002F896 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				161E67392413899700E31EE6 /* libassimp.5.0.0.dylib */,
 				16965B8F240A09B10002F896 /* libglfw.3.3.dylib */,
 				16965B8D240A099B0002F896 /* libGLEW.2.1.0.dylib */,
 				16965B8B240A08C20002F896 /* OpenGL.framework */,
@@ -186,6 +207,7 @@
 		16965BAD240A29940002F896 /* shader */ = {
 			isa = PBXGroup;
 			children = (
+				161E673B241389D000E31EE6 /* model_loading */,
 				161E6715241343E700E31EE6 /* light */,
 				168BE7D9240A3D9200190053 /* 7.1.camera.fs */,
 				168BE7DA240A3D9200190053 /* 7.1.camera.vs */,
@@ -390,7 +412,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/assimp/5.0.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -400,7 +425,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/assimp/5.0.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
