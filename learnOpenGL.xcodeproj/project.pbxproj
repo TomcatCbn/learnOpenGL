@@ -37,6 +37,12 @@
 		161E671E2413657000E31EE6 /* 3.1.materials.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.1.materials.vs; sourceTree = "<group>"; };
 		161E671F2413657000E31EE6 /* 3.1.lamp.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.1.lamp.fs; sourceTree = "<group>"; };
 		161E67202413657000E31EE6 /* 3.1.materials.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.1.materials.fs; sourceTree = "<group>"; };
+		161E672124136ADC00E31EE6 /* 4.2.lamp.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 4.2.lamp.fs; sourceTree = "<group>"; };
+		161E672224136ADC00E31EE6 /* 4.2.lamp.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 4.2.lamp.vs; sourceTree = "<group>"; };
+		161E672324136ADD00E31EE6 /* 4.2.lighting_maps.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 4.2.lighting_maps.vs; sourceTree = "<group>"; };
+		161E672424136ADD00E31EE6 /* 4.2.lighting_maps.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 4.2.lighting_maps.fs; sourceTree = "<group>"; };
+		161E672724136BF300E31EE6 /* textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = textures; path = "../../../LearnOpenGL-master/resources/textures"; sourceTree = "<group>"; };
+		161E672824136BF400E31EE6 /* objects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = objects; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -81,6 +87,10 @@
 		161E6715241343E700E31EE6 /* light */ = {
 			isa = PBXGroup;
 			children = (
+				161E672124136ADC00E31EE6 /* 4.2.lamp.fs */,
+				161E672224136ADC00E31EE6 /* 4.2.lamp.vs */,
+				161E672424136ADD00E31EE6 /* 4.2.lighting_maps.fs */,
+				161E672324136ADD00E31EE6 /* 4.2.lighting_maps.vs */,
 				161E671F2413657000E31EE6 /* 3.1.lamp.fs */,
 				161E671D2413656F00E31EE6 /* 3.1.lamp.vs */,
 				161E67202413657000E31EE6 /* 3.1.materials.fs */,
@@ -142,6 +152,8 @@
 		16965BAC240A296F0002F896 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				161E672824136BF400E31EE6 /* objects */,
+				161E672724136BF300E31EE6 /* textures */,
 				16965BB2240A2BD20002F896 /* textures */,
 			);
 			path = resources;
