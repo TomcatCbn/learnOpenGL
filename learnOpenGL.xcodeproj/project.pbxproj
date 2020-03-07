@@ -28,6 +28,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		161E6716241343FC00E31EE6 /* 2.2.basic_lighting.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.2.basic_lighting.vs; sourceTree = "<group>"; };
+		161E6717241343FC00E31EE6 /* 2.2.lamp.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.2.lamp.fs; sourceTree = "<group>"; };
+		161E6718241343FD00E31EE6 /* 2.2.lamp.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.2.lamp.vs; sourceTree = "<group>"; };
+		161E6719241343FD00E31EE6 /* 2.2.basic_lighting.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.2.basic_lighting.fs; sourceTree = "<group>"; };
+		161E671A2413451D00E31EE6 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -69,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		161E6715241343E700E31EE6 /* light */ = {
+			isa = PBXGroup;
+			children = (
+				161E6719241343FD00E31EE6 /* 2.2.basic_lighting.fs */,
+				161E6716241343FC00E31EE6 /* 2.2.basic_lighting.vs */,
+				161E6717241343FC00E31EE6 /* 2.2.lamp.fs */,
+				161E6718241343FD00E31EE6 /* 2.2.lamp.vs */,
+			);
+			path = light;
+			sourceTree = "<group>";
+		};
 		16965B77240A07090002F896 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +114,7 @@
 				16965BA9240A291A0002F896 /* filesystem.h */,
 				16965BA5240A19000002F896 /* shader_s.h */,
 				16965B9B240A0FA70002F896 /* glad.c */,
+				161E671A2413451D00E31EE6 /* camera.h */,
 				16965B83240A07090002F896 /* main.cpp */,
 				16965BB0240A2B510002F896 /* stb_image.cpp */,
 			);
@@ -125,6 +142,7 @@
 		16965BAD240A29940002F896 /* shader */ = {
 			isa = PBXGroup;
 			children = (
+				161E6715241343E700E31EE6 /* light */,
 				168BE7D9240A3D9200190053 /* 7.1.camera.fs */,
 				168BE7DA240A3D9200190053 /* 7.1.camera.vs */,
 				168BE7D6240A389500190053 /* 6.2.coordinate_systems.fs */,
