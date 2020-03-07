@@ -33,6 +33,10 @@
 		161E6718241343FD00E31EE6 /* 2.2.lamp.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.2.lamp.vs; sourceTree = "<group>"; };
 		161E6719241343FD00E31EE6 /* 2.2.basic_lighting.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.2.basic_lighting.fs; sourceTree = "<group>"; };
 		161E671A2413451D00E31EE6 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		161E671D2413656F00E31EE6 /* 3.1.lamp.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.1.lamp.vs; sourceTree = "<group>"; };
+		161E671E2413657000E31EE6 /* 3.1.materials.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.1.materials.vs; sourceTree = "<group>"; };
+		161E671F2413657000E31EE6 /* 3.1.lamp.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.1.lamp.fs; sourceTree = "<group>"; };
+		161E67202413657000E31EE6 /* 3.1.materials.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.1.materials.fs; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -77,6 +81,10 @@
 		161E6715241343E700E31EE6 /* light */ = {
 			isa = PBXGroup;
 			children = (
+				161E671F2413657000E31EE6 /* 3.1.lamp.fs */,
+				161E671D2413656F00E31EE6 /* 3.1.lamp.vs */,
+				161E67202413657000E31EE6 /* 3.1.materials.fs */,
+				161E671E2413657000E31EE6 /* 3.1.materials.vs */,
 				161E6719241343FD00E31EE6 /* 2.2.basic_lighting.fs */,
 				161E6716241343FC00E31EE6 /* 2.2.basic_lighting.vs */,
 				161E6717241343FC00E31EE6 /* 2.2.lamp.fs */,
