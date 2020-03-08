@@ -62,6 +62,7 @@
 		161E674324138B6A00E31EE6 /* shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
 		161E674424138F5E00E31EE6 /* 1.model_loading.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 1.model_loading.fs; sourceTree = "<group>"; };
 		161E674524138F5F00E31EE6 /* 1.model_loading.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 1.model_loading.vs; sourceTree = "<group>"; };
+		161E674624139B5F00E31EE6 /* 中文界面V2.0.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = "中文界面V2.0.blend"; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				16965B9D240A101F0002F896 /* README.md */,
+				161E674624139B5F00E31EE6 /* 中文界面V2.0.blend */,
 				16965B82240A07090002F896 /* learnOpenGL */,
 				16965B81240A07090002F896 /* Products */,
 				16965B8A240A08C20002F896 /* Frameworks */,
