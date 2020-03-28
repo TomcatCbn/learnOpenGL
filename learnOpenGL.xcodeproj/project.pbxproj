@@ -63,6 +63,9 @@
 		161E674424138F5E00E31EE6 /* 1.model_loading.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 1.model_loading.fs; sourceTree = "<group>"; };
 		161E674524138F5F00E31EE6 /* 1.model_loading.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 1.model_loading.vs; sourceTree = "<group>"; };
 		161E674624139B5F00E31EE6 /* 中文界面V2.0.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = "中文界面V2.0.blend"; sourceTree = "<group>"; };
+		1675217A242F1B9800DCBCD4 /* 2.stencil_testing.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.stencil_testing.vs; sourceTree = "<group>"; };
+		1675217B242F1B9800DCBCD4 /* 2.stencil_testing.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.stencil_testing.fs; sourceTree = "<group>"; };
+		1675217C242F1B9800DCBCD4 /* 2.stencil_single_color.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.stencil_single_color.fs; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -145,6 +148,16 @@
 			path = model_loading;
 			sourceTree = "<group>";
 		};
+		16752179242F1B8B00DCBCD4 /* stencil */ = {
+			isa = PBXGroup;
+			children = (
+				1675217C242F1B9800DCBCD4 /* 2.stencil_single_color.fs */,
+				1675217B242F1B9800DCBCD4 /* 2.stencil_testing.fs */,
+				1675217A242F1B9800DCBCD4 /* 2.stencil_testing.vs */,
+			);
+			path = stencil;
+			sourceTree = "<group>";
+		};
 		16965B77240A07090002F896 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +222,7 @@
 		16965BAD240A29940002F896 /* shader */ = {
 			isa = PBXGroup;
 			children = (
+				16752179242F1B8B00DCBCD4 /* stencil */,
 				161E673B241389D000E31EE6 /* model_loading */,
 				161E6715241343E700E31EE6 /* light */,
 				168BE7D9240A3D9200190053 /* 7.1.camera.fs */,
