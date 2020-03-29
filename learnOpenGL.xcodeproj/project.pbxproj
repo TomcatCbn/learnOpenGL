@@ -68,6 +68,10 @@
 		1675217C242F1B9800DCBCD4 /* 2.stencil_single_color.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 2.stencil_single_color.fs; sourceTree = "<group>"; };
 		1675217D24305E8600DCBCD4 /* 3.2.blending.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.2.blending.fs; sourceTree = "<group>"; };
 		1675217E24305E8600DCBCD4 /* 3.2.blending.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 3.2.blending.vs; sourceTree = "<group>"; };
+		167521802430742D00DCBCD4 /* 5.1.framebuffers.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.framebuffers.fs; sourceTree = "<group>"; };
+		167521812430742D00DCBCD4 /* 5.1.framebuffers.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.framebuffers.vs; sourceTree = "<group>"; };
+		167521822430742E00DCBCD4 /* 5.1.framebuffers_screen.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.framebuffers_screen.fs; sourceTree = "<group>"; };
+		167521832430742E00DCBCD4 /* 5.1.framebuffers_screen.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.framebuffers_screen.vs; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -160,6 +164,17 @@
 			path = stencil;
 			sourceTree = "<group>";
 		};
+		1675217F2430741A00DCBCD4 /* framebuffer */ = {
+			isa = PBXGroup;
+			children = (
+				167521822430742E00DCBCD4 /* 5.1.framebuffers_screen.fs */,
+				167521832430742E00DCBCD4 /* 5.1.framebuffers_screen.vs */,
+				167521802430742D00DCBCD4 /* 5.1.framebuffers.fs */,
+				167521812430742D00DCBCD4 /* 5.1.framebuffers.vs */,
+			);
+			path = framebuffer;
+			sourceTree = "<group>";
+		};
 		16965B77240A07090002F896 = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +239,7 @@
 		16965BAD240A29940002F896 /* shader */ = {
 			isa = PBXGroup;
 			children = (
+				1675217F2430741A00DCBCD4 /* framebuffer */,
 				1675217D24305E8600DCBCD4 /* 3.2.blending.fs */,
 				1675217E24305E8600DCBCD4 /* 3.2.blending.vs */,
 				16752179242F1B8B00DCBCD4 /* stencil */,
