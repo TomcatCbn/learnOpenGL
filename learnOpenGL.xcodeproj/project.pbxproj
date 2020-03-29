@@ -72,6 +72,9 @@
 		167521812430742D00DCBCD4 /* 5.1.framebuffers.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.framebuffers.vs; sourceTree = "<group>"; };
 		167521822430742E00DCBCD4 /* 5.1.framebuffers_screen.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.framebuffers_screen.fs; sourceTree = "<group>"; };
 		167521832430742E00DCBCD4 /* 5.1.framebuffers_screen.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.framebuffers_screen.vs; sourceTree = "<group>"; };
+		1675218424307D8100DCBCD4 /* 9.2.geometry_shader.gs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 9.2.geometry_shader.gs; sourceTree = "<group>"; };
+		1675218524307D8100DCBCD4 /* 9.2.geometry_shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 9.2.geometry_shader.vs; sourceTree = "<group>"; };
+		1675218624307D8100DCBCD4 /* 9.2.geometry_shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 9.2.geometry_shader.fs; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -255,6 +258,9 @@
 				16965BAF240A299E0002F896 /* 4.2.texture.vs */,
 				16965BA6240A19880002F896 /* shader.fs */,
 				16965BA7240A19880002F896 /* shader.vs */,
+				1675218624307D8100DCBCD4 /* 9.2.geometry_shader.fs */,
+				1675218424307D8100DCBCD4 /* 9.2.geometry_shader.gs */,
+				1675218524307D8100DCBCD4 /* 9.2.geometry_shader.vs */,
 			);
 			path = shader;
 			sourceTree = "<group>";
