@@ -75,6 +75,12 @@
 		1675218424307D8100DCBCD4 /* 9.2.geometry_shader.gs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 9.2.geometry_shader.gs; sourceTree = "<group>"; };
 		1675218524307D8100DCBCD4 /* 9.2.geometry_shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 9.2.geometry_shader.vs; sourceTree = "<group>"; };
 		1675218624307D8100DCBCD4 /* 9.2.geometry_shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 9.2.geometry_shader.fs; sourceTree = "<group>"; };
+		167521882430822200DCBCD4 /* 10.1.instancing.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 10.1.instancing.vs; sourceTree = "<group>"; };
+		167521892430822200DCBCD4 /* 10.1.instancing.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 10.1.instancing.fs; sourceTree = "<group>"; };
+		1675218A2430825000DCBCD4 /* 10.3.asteroids.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 10.3.asteroids.fs; sourceTree = "<group>"; };
+		1675218B2430825000DCBCD4 /* 10.3.planet.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 10.3.planet.fs; sourceTree = "<group>"; };
+		1675218C2430825000DCBCD4 /* 10.3.planet.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 10.3.planet.vs; sourceTree = "<group>"; };
+		1675218D2430825000DCBCD4 /* 10.3.asteroids.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 10.3.asteroids.vs; sourceTree = "<group>"; };
 		168BE7D3240A323600190053 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		168BE7D4240A325B00190053 /* 5.1.transform.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.fs; sourceTree = "<group>"; };
 		168BE7D5240A325B00190053 /* 5.1.transform.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = 5.1.transform.vs; sourceTree = "<group>"; };
@@ -261,6 +267,12 @@
 				1675218624307D8100DCBCD4 /* 9.2.geometry_shader.fs */,
 				1675218424307D8100DCBCD4 /* 9.2.geometry_shader.gs */,
 				1675218524307D8100DCBCD4 /* 9.2.geometry_shader.vs */,
+				167521892430822200DCBCD4 /* 10.1.instancing.fs */,
+				167521882430822200DCBCD4 /* 10.1.instancing.vs */,
+				1675218A2430825000DCBCD4 /* 10.3.asteroids.fs */,
+				1675218D2430825000DCBCD4 /* 10.3.asteroids.vs */,
+				1675218B2430825000DCBCD4 /* 10.3.planet.fs */,
+				1675218C2430825000DCBCD4 /* 10.3.planet.vs */,
 			);
 			path = shader;
 			sourceTree = "<group>";
